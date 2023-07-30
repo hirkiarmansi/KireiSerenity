@@ -1,0 +1,44 @@
+
+input:focus{
+  box-shadow: 0 0 5px rgb(193, 181, 228,1);
+  border-color: #c1b5e4;
+}
+input::after{
+  background-color: #c1b5e4;
+}
+.form-control:focus{
+  box-shadow: 0 0 5px rgb(193, 181, 228,1);
+  border-color: #c1b5e4;
+}
+
+.btn{
+  background-color:rgba(230,225,249,0.2) ;
+  color: black; 
+  border: 1px solid;
+  transition:background-color 0.5s ease;
+}
+.btn:hover{
+  background-color:
+  #363546;
+  border:none;
+  color:white;
+}
+.form-check-input{
+  background-color: #373737;
+
+}
+.card{
+  background-color: rgba(230,225,249,0.8);
+}
+small{
+  color: red;
+}
+@media only screen and (max-width:768px){
+  .box-area{
+    margin:0 10px;
+  }
+  .left-box{
+    height: 100px;
+    overflow: hidden;
+  }
+}

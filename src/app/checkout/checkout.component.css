@@ -1,0 +1,29 @@
+.address{
+  border: 1px solid #000000;
+}
+.address ul{
+  list-style: none;
+  padding: 30px;
+  background-color: white;
+}
+.address ul li{
+  font-size: larger;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.btn-checkout{
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  background-color:rgb(231, 227, 234);
+  width: 100%;
+  height: 40px;
+  transition: all 0.3s;
+}
+.btn-checkout:hover{
+  background-color:
+  #363546;
+  color:white;
+  border:none;
+  transform: translateY(-2px);
+}

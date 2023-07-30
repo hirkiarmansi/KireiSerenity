@@ -1,0 +1,82 @@
+<div class="body container ">
+  <div class="cart">
+    <h1 class="display text text-center" style="font-size: 60px; ">
+      CART
+    </h1>
+    <div class="mt-5" *ngIf="!isLoggedIn">
+      <h1 style="text-align: center; background-color: white;"> Log in to view the Cart information.</h1>
+     </div>
+    <div *ngIf="isLoggedIn" >
+      <div [ngSwitch]='menuType'>
+        <div class="row" *ngSwitchCase="'default'" >
+          <div class="col-md-7 col-sm-12 details" style="margin-right: 100px;">
+            <div class="row product"*ngFor="let cart of cartData">
+              <div class="title" style="background-color:rgb(231, 227, 234)">
+                <h2>
+                  PRODUCTS
+                </h2>
+              </div>
+              <ul class="img col-sm-6 d-flex justify-content-center align-items-center">
+                <li>
+                  <img src="{{cart.image}}">
+                </li>
+              </ul>
+              <ul class="details-col col-sm-6">
+                <li>
+                  <span style="font-size:medium;">
+                    {{cart.name}}
+                  </span>
+                </li>
+                <li>
+                  <span>
+                    Price:{{cart.price}}
+                  </span>
+                </li>
+                <li>
+                  <span>
+                    Quantity:{{cart.quantity}}
+                  </span>
+                </li>
+                <li class="form-button">
+                  <button class="btn btn-custom" (click)="removeFromCart(cart.id)" >
+                    Remove From Cart
+                  </button>
+                </li> 
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 order-summary" style="margin-left: 0;background-color: white; padding:0;">
+            <div class="title" style="background-color:rgb(231, 227, 234)">
+              <h2>
+                ORDER SUMMARY
+              </h2>
+            </div>
+            <div class="order-total">
+              <ul>
+                <li>
+                  <span>Subtotal </span><span>₹ {{cartSummary.price}} </span>
+                </li>
+                <li>
+                  <span>Tax </span><span>₹ {{cartSummary.tax}}</span>
+                </li>
+                <li>
+                  <span>Estimated Shipping Cost </span><span>₹ {{cartSummary.shippingPrice}} </span>
+                </li>
+                <hr class="hr-dark">
+                <li style="font-size: large;">
+                 <span> Total</span><span>₹ {{cartSummary.total}} </span>
+                </li>
+              </ul>
+            </div>
+            <button class="btn-checkout"  (click)="checkout()">Checkout</button>
+          </div>
+        </div>
+        <div *ngSwitchCase="'emptyCart'" style=" border: 1px solid #ddd;  margin-top: 100px;">
+          <p style="font-size: xx-large;color:rgb(95, 93, 93);text-align: center; margin-top: 100px;margin-bottom: 100px;">Cart Is Empty</p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+

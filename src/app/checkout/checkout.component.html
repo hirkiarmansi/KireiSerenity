@@ -1,0 +1,66 @@
+<div class="body container ">
+  <div class="mt-5">
+    <h1 class="mb-5" style="text-align: center;font-size: 60px;">
+      CHECKOUT
+    </h1>
+    <div class="row" *ngIf="!isLoggedIn">
+      <div class="col-md-5 col-sm-12 address mb-5 " style="margin-right: 200px;">
+        <div class="row " style="border: 1px solid #ddd; background-color:rgb(231, 227, 234);text-align: center;">
+          <h1 class="mt-3">SHIPPING ADDRESS</h1>
+        </div>
+        <ul>
+          <li><span>Address</span>
+            <span>
+              {{userData.address}}
+            </span>
+          </li>
+          <li><span>City</span>
+            <span>
+              {{userData.City}}
+            </span>
+          </li>
+          <li><span>State</span>
+            <span>
+              {{userData.state}}
+            </span>
+          </li>
+          <li><span>Zip</span>
+            <span>
+              {{userData.zip}}
+            </span>
+          </li>
+          <li><span>Contact</span>
+            <span>
+              {{userData.contact}}
+            </span>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-5 col-sm-12 address mb-5 ml-3">
+        <div class="row " style="border: 1px solid #ddd; background-color:rgb(231, 227, 234); text-align: center;">
+          <h1 class="mt-3">ORDER SUMMARY</h1>
+        </div>
+      <div class="order-total">
+        <ul>
+          <li>
+            <span>Subtotal </span><span>₹ {{cartSummary.price}} </span>
+          </li>
+          <li>
+            <span>Tax </span><span>₹ {{cartSummary.tax}}</span>
+          </li>
+          <li>
+            <span>Estimated Shipping Cost </span><span>₹ {{cartSummary.shippingPrice}} </span>
+          </li>
+          <hr class="hr-dark">
+          <li style="font-size: large;">
+           <span> Total</span><span>₹ {{cartSummary.total}} </span>
+          </li>
+          <button class="btn-checkout" (click)="orderNow()">Order Now</button>
+        </ul>
+          <p style="color: green; text-align: center;">{{orderMsg}}</p>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+

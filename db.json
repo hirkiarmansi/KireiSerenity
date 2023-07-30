@@ -1,0 +1,199 @@
+{
+  "login": [
+    {
+      "name": "Mansi Hirkiar ",
+      "email": "hirkiar@gmail.com",
+      "password": "123456",
+      "address": "sbrthn",
+      "address2": "",
+      "City": "fvbthnry",
+      "state": "erbryunrtb",
+      "zip": "123567",
+      "contact": "836465793",
+      "id": 1
+    },
+    {
+      "name": "Mansi Hirkiar ",
+      "email": "hirkiar@gmail.com",
+      "password": "123456",
+      "address": "Barapind",
+      "address2": "goraya",
+      "City": "Goraya",
+      "state": "Punjab",
+      "zip": "144455",
+      "contact": 9041356321,
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "image": "../assets/images/05_1b8c96d9-881e-492d-bf65-cba86a26927f_785x.webp",
+      "name": "Green Tea AMino Acid Cleansing Foam 150g",
+      "price": 500,
+      "id": 1,
+      "description": " A daily moisture-barrier strengthening serum, formulated with Green Tea Biome, that helps to care dehydrated, pH-unbalanced skin due to loss of hydration every day by moisturising, soothing and nourishing for a healthy-looking complexion."
+    },
+    {
+      "image": "../assets/images/BT-Essence_1080x1080_1.webp",
+      "name": "Innisfree Black Tea Youth Enhancing Treatment Essence 145ml",
+      "price": 2500,
+      "id": 2,
+      "description": " A daily moisture-barrier strengthening serum, formulated with Green Tea Biome, that helps to care dehydrated, pH-unbalanced skin due to loss of hydration every day by moisturising, soothing and nourishing for a healthy-looking complexion."
+    },
+    {
+      "image": "../assets/images/AloeVeraGel_2_1066x.webp",
+      "name": "Innisfree Aloe Revital Soothing Gel 300ml",
+      "price": 522,
+      "id": 3,
+      "description": " A daily moisture-barrier strengthening serum, formulated with Green Tea Biome, that helps to care dehydrated, pH-unbalanced skin due to loss of hydration every day by moisturising, soothing and nourishing for a healthy-looking complexion."
+    },
+    {
+      "image": "../assets/images/131173570_RetinolCicaAmpouleFocusingPatch_mixed_3_08357c02-3b5d-4927-8596-0b2d40c74d32_1066x.webp",
+      "name": "Innisfree Retinol Cica Ampoule Focusing Patch_9 Patches",
+      "price": 800,
+      "id": 4,
+      "description": " A daily moisture-barrier strengthening serum, formulated with Green Tea Biome, that helps to care dehydrated, pH-unbalanced skin due to loss of hydration every day by moisturising, soothing and nourishing for a healthy-looking complexion."
+    },
+    {
+      "image": "../assets/images/2022GreenHolidays_BestHolidayKit_GIF_1x1_GMC_8_1066x.webp",
+      "name": "Innisfree Best Holiday Kit [ Advent Calender ]",
+      "price": 1800,
+      "id": 5,
+      "description": " A daily moisture-barrier strengthening serum, formulated with Green Tea Biome, that helps to care dehydrated, pH-unbalanced skin due to loss of hydration every day by moisturising, soothing and nourishing for a healthy-looking complexion."
+    },
+    {
+      "image": "../assets/images/Triple-Sheild-Sunscreen_1080x1080_2_1066x.webp",
+      "name": "Intensive Triple-Shield Sunscreen SPF50+ PA++++",
+      "price": 1187.5,
+      "id": 6,
+      "description": " A daily moisture-barrier strengthening serum, formulated with Green Tea Biome, that helps to care dehydrated, pH-unbalanced skin due to loss of hydration every day by moisturising, soothing and nourishing for a healthy-looking complexion."
+    },
+    {
+      "image": "../assets/images/131173030CamelliaEssentialHairOilSerum_BM2_2_1066x.webp",
+      "name": "Innisfree Camellia Essential Hair Oil Serum 100ml",
+      "price": 810,
+      "id": 7,
+      "description": " A daily moisture-barrier strengthening serum, formulated with Green Tea Biome, that helps to care dehydrated, pH-unbalanced skin due to loss of hydration every day by moisturising, soothing and nourishing for a healthy-looking complexion."
+    },
+    {
+      "image": "../assets/images/AloeVeraGel_2_1066x.webp",
+      "name": "Innisfree Aloe Revital Soothing Gel 300ml",
+      "price": 522.5,
+      "id": 8,
+      "description": " A daily moisture-barrier strengthening serum, formulated with Green Tea Biome, that helps to care dehydrated, pH-unbalanced skin due to loss of hydration every day by moisturising, soothing and nourishing for a healthy-looking complexion."
+    }
+  ],
+  "cart": [
+    {
+      "image": "../assets/images/05_1b8c96d9-881e-492d-bf65-cba86a26927f_785x.webp",
+      "name": "Green Tea AMino Acid Cleansing Foam 150g",
+      "price": 500,
+      "description": " A daily moisture-barrier strengthening serum, formulated with Green Tea Biome, that helps to care dehydrated, pH-unbalanced skin due to loss of hydration every day by moisturising, soothing and nourishing for a healthy-looking complexion.",
+      "quantity": 1,
+      "userId": 8,
+      "productId": 1,
+      "id": 1
+    },
+    {
+      "image": "../assets/images/05_1b8c96d9-881e-492d-bf65-cba86a26927f_785x.webp",
+      "name": "Green Tea AMino Acid Cleansing Foam 150g",
+      "price": 500,
+      "description": " A daily moisture-barrier strengthening serum, formulated with Green Tea Biome, that helps to care dehydrated, pH-unbalanced skin due to loss of hydration every day by moisturising, soothing and nourishing for a healthy-looking complexion.",
+      "quantity": 1,
+      "productId": 1,
+      "id": 2
+    },
+    {
+      "image": "../assets/images/05_1b8c96d9-881e-492d-bf65-cba86a26927f_785x.webp",
+      "name": "Green Tea AMino Acid Cleansing Foam 150g",
+      "price": 500,
+      "description": " A daily moisture-barrier strengthening serum, formulated with Green Tea Biome, that helps to care dehydrated, pH-unbalanced skin due to loss of hydration every day by moisturising, soothing and nourishing for a healthy-looking complexion.",
+      "quantity": 1,
+      "productId": 1,
+      "id": 3
+    },
+    {
+      "image": "../assets/images/05_1b8c96d9-881e-492d-bf65-cba86a26927f_785x.webp",
+      "name": "Green Tea AMino Acid Cleansing Foam 150g",
+      "price": 500,
+      "description": " A daily moisture-barrier strengthening serum, formulated with Green Tea Biome, that helps to care dehydrated, pH-unbalanced skin due to loss of hydration every day by moisturising, soothing and nourishing for a healthy-looking complexion.",
+      "quantity": 1,
+      "productId": 1,
+      "id": 4
+    },
+    {
+      "image": "../assets/images/05_1b8c96d9-881e-492d-bf65-cba86a26927f_785x.webp",
+      "name": "Green Tea AMino Acid Cleansing Foam 150g",
+      "price": 500,
+      "description": " A daily moisture-barrier strengthening serum, formulated with Green Tea Biome, that helps to care dehydrated, pH-unbalanced skin due to loss of hydration every day by moisturising, soothing and nourishing for a healthy-looking complexion.",
+      "quantity": 1,
+      "productId": 1,
+      "id": 5
+    },
+    {
+      "image": "../assets/images/05_1b8c96d9-881e-492d-bf65-cba86a26927f_785x.webp",
+      "name": "Green Tea AMino Acid Cleansing Foam 150g",
+      "price": 500,
+      "description": " A daily moisture-barrier strengthening serum, formulated with Green Tea Biome, that helps to care dehydrated, pH-unbalanced skin due to loss of hydration every day by moisturising, soothing and nourishing for a healthy-looking complexion.",
+      "quantity": 1,
+      "productId": 1,
+      "id": 6
+    },
+    {
+      "image": "../assets/images/05_1b8c96d9-881e-492d-bf65-cba86a26927f_785x.webp",
+      "name": "Green Tea AMino Acid Cleansing Foam 150g",
+      "price": 500,
+      "description": " A daily moisture-barrier strengthening serum, formulated with Green Tea Biome, that helps to care dehydrated, pH-unbalanced skin due to loss of hydration every day by moisturising, soothing and nourishing for a healthy-looking complexion.",
+      "quantity": 1,
+      "productId": 1,
+      "id": 7
+    },
+    {
+      "image": "../assets/images/BT-Essence_1080x1080_1.webp",
+      "name": "Innisfree Black Tea Youth Enhancing Treatment Essence 145ml",
+      "price": 2500,
+      "description": " A daily moisture-barrier strengthening serum, formulated with Green Tea Biome, that helps to care dehydrated, pH-unbalanced skin due to loss of hydration every day by moisturising, soothing and nourishing for a healthy-looking complexion.",
+      "quantity": 1,
+      "productId": 2,
+      "id": 8
+    },
+    {
+      "image": "../assets/images/BT-Essence_1080x1080_1.webp",
+      "name": "Innisfree Black Tea Youth Enhancing Treatment Essence 145ml",
+      "price": 2500,
+      "description": " A daily moisture-barrier strengthening serum, formulated with Green Tea Biome, that helps to care dehydrated, pH-unbalanced skin due to loss of hydration every day by moisturising, soothing and nourishing for a healthy-looking complexion.",
+      "quantity": 1,
+      "productId": 2,
+      "id": 9
+    },
+    {
+      "image": "../assets/images/BT-Essence_1080x1080_1.webp",
+      "name": "Innisfree Black Tea Youth Enhancing Treatment Essence 145ml",
+      "price": 2500,
+      "description": " A daily moisture-barrier strengthening serum, formulated with Green Tea Biome, that helps to care dehydrated, pH-unbalanced skin due to loss of hydration every day by moisturising, soothing and nourishing for a healthy-looking complexion.",
+      "quantity": 1,
+      "productId": 2,
+      "id": 10
+    },
+    {
+      "image": "../assets/images/BT-Essence_1080x1080_1.webp",
+      "name": "Innisfree Black Tea Youth Enhancing Treatment Essence 145ml",
+      "price": 2500,
+      "description": " A daily moisture-barrier strengthening serum, formulated with Green Tea Biome, that helps to care dehydrated, pH-unbalanced skin due to loss of hydration every day by moisturising, soothing and nourishing for a healthy-looking complexion.",
+      "quantity": 1,
+      "productId": 2,
+      "id": 11
+    }
+  ],
+  "orders": [
+    {
+      "email": "hirkiar@gmail.com",
+      "name": "Mansi Hirkiar ",
+      "address": "sbrthn",
+      "total": 991,
+      "userId": 1,
+      "contact": "836465793",
+      "id": 1
+    }
+  ]
+}

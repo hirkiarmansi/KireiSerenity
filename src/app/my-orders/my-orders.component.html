@@ -1,0 +1,29 @@
+<div class="body">
+  <div class="container my-orders mt-5">
+    <h1 style="text-align: center;font-size: 60px;">MY ORDERS</h1>
+    <div>
+      <div>
+        <div class="display-product" style=" background-color:rgb(231, 227, 234);
+        ">
+          <ul>
+            <li><span class="title">Order Id</span></li>
+            <li><span class="title">Price</span></li>
+            <li><span class="title">Status</span></li>
+            <li><span>Cancel Order</span></li>
+          </ul>
+        </div>
+        <div class="display-product" *ngFor="let order of orderData">
+          <ul>
+            <li><span class="info">#{{order.id}}</span></li>
+            <li><span class="info">{{order.total}}</span></li>
+            <li><span class="info">In Progress</span></li>
+            <li>
+              <button class="btn-cancel" style="margin-top: -10px;" (click)="cancelOrder(order.id)">Cancel Order</button>
+            </li>
+          </ul>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>

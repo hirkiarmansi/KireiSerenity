@@ -1,0 +1,43 @@
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../assets/images/top_image(1).webp" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/images/top_image(2).webp" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<div class="body">
+  <div class="container">
+    <div class="product-list-wrapper mt-5 row">
+      <h1>
+        Monsoon's Must Haves!
+      </h1>
+      <div class="card col-sm-6 " *ngFor="let item of trendyProducts" style="width: 18rem;">
+        <a routerLink="/details/{{item.id}}">
+          <img src="{{item.image}}" class="card-img-top mt-3" alt="...">
+        </a>
+        <div class="card-body">
+          <h3 class="card-title mb-0">{{item.name}}</h3>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"> Price: ₹ {{item.price}}</li>
+        </ul>
+        <div class="card-body">
+          <a routerLink="/details/{{item.id}}" class="card-link"><button class="btn btn-custom">View
+              Details</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>

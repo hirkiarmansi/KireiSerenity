@@ -1,0 +1,25 @@
+<div class="row product-details" *ngIf="productData" style="margin:100px;">
+  <div class="col-sm-6">
+    <img class="product-image" src="{{productData.image}}">
+  </div>
+  <div class="col-sm-6">
+    <div class="details">
+      <h1>{{productData.name}}</h1>
+      <h2>Price: {{productData.price}}</h2>
+    </div>
+    <div class="product-description">
+      <h4>
+        {{productData.description}}
+      </h4>
+      <a class="card-link mt-4" *ngIf="!removeCart" ><button   class="btn btn-custom" (click)="AddToCart()">Add To Cart</button></a>
+      <a class="card-link mt-4" *ngIf="removeCart"><button    class="btn btn-custom" (click)="removeFromCart(productData.id)">Remove From Cart </button></a>
+    </div>
+    <div class="quantity-group">
+      <button (click)="handleQuantity('min')">-</button>
+      <input type="text" value="{{productQuantity}}"/>
+      <button (click)="handleQuantity('plus')">+</button>
+
+    </div>
+
+  </div>
+</div>

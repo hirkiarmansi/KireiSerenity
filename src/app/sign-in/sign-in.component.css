@@ -1,0 +1,47 @@
+input:focus{
+  box-shadow: 0 0 5px rgb(193, 181, 228,1);
+  border-color: #c1b5e4;
+}
+input::after{
+  background-color: #c1b5e4;
+}
+.form-control:focus{
+  box-shadow: 0 0 5px rgb(193, 181, 228,1);
+  border-color: #c1b5e4;
+}
+
+.btn{
+  transition:background-color 0.5s ease;
+}
+.btn:hover{
+  background-color: 
+  #363546;
+  border:none;
+  color:white;
+}
+.form-check-input{
+  background-color: #373737;
+
+}
+.form-signUp{
+  width: 50%;
+
+}
+small{
+  color: red;
+}
+.container{
+  width: 80%;
+}
+label{
+  font-weight: 900;
+}
+@media only screen and (max-width:768px){
+  .box-area{
+    margin:0 10px;
+  }
+  .left-box{
+    height: 100px;
+    overflow: hidden;
+  }
+}

@@ -1,0 +1,32 @@
+.btn.btn-custom {
+  border: 1px solid #ddd;
+  background-color: white;
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  transition: all 0.3s;
+}
+.btn.btn-custom:hover {
+  background-color: 
+  #363546;
+  color:white;
+  border:none;
+  transform: translateY(-2px);
+}
+.card{
+  transition: all 0.3s;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.card:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.card img{
+  height: 250px;
+}
+.body{
+  margin-bottom: 100px;
+}

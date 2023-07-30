@@ -1,0 +1,23 @@
+<div class="body">
+  <div class="container">
+    <div class="product-list-wrapper mt-5 row">
+      <h1>
+        
+      </h1>
+      <div class="card col-sm-6 " *ngFor="let item of trendyProducts" style="width: 18rem;">
+        <a routerLink="/details/{{item.id}}">
+          <img src="{{item.image}}" class="card-img-top mt-3" alt="...">
+        </a>
+        <div class="card-body">
+          <h3 class="card-title mb-0">{{item.name}}</h3>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"> Price: ₹ {{item.price}}</li>
+        </ul>
+        <div class="card-body">
+          <a routerLink="/details/{{item.id}}" class="card-link"><button class="btn btn-custom">View Details</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
